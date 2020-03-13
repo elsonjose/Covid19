@@ -4,5 +4,5 @@ A simple mobile application based on https://github.com/ExpDev07/coronavirus-tra
 The lauchericons are from Icons made by Flat Icons from www.flaticon.com Author https://www.flaticon.com/authors/flat-icons
 
 Screen shots
-![](1.png)
-![](2.png)
+![](images/1.png)
+![](images/2.png)
