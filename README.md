@@ -1,7 +1,7 @@
 # Covid19
 A simple mobile application based on https://github.com/ExpDev07/coronavirus-tracker-api
 
-The lauchericons are from Icons made by Flat Icons from www.flaticon.com Author https://www.flaticon.com/authors/flat-icons
+The laucher icon is from Icons made by Flat Icons from www.flaticon.com Author https://www.flaticon.com/authors/flat-icons
 
 Screen shots </br>
 ![](images/1.jpg)
