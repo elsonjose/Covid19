@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <ImageButton
+            android:id="@+id/markerInfoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_info"
+            android:background="@android:color/transparent"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/marker_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATA :"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/marker_confirmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATA :"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/marker_deaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATA :"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="5dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/marker_recovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATA :"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/marker_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status :"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp"/>
+
+            <ImageButton
+                android:id="@+id/marker_imagebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_brightness_low"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

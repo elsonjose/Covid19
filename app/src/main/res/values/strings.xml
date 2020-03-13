@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Covid19</string>
+    <string name="infoForMarker">The status is evaluated as the ratio of current number of confirmed cases to the average number of confirmed cases in the corresponding location  or country. The current number of confirmed cases is evaluated as the difference of confirmed cases and recovered cases.</string>
+</resources>
