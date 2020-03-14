@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -23,6 +24,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
+import android.webkit.WebView;
 import android.widget.GridLayout;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
@@ -138,6 +140,8 @@ public class MainActivity extends AppCompatActivity {
         MarkerDialogwindow.addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
         MarkerDialogwindow.setDimAmount(0.50f);
 
+        WebView infoWebView = infoDialog.findViewById(R.id.info_webview);
+        infoWebView.loadData("<div>Launcher icon made by <a title=\"DinosoftLabs\" href=\"https://www.flaticon.com/authors/dinosoftlabs\">DinosoftLabs</a> from <a title=\"Flaticon\" href=\"https://www.flaticon.com/\">www.flaticon.com</a></div>", "text/html", null);
         infoDialog.show();
     }
 
