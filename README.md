@@ -1,7 +1,7 @@
 # Covid19
 A simple mobile application based on https://github.com/ExpDev07/coronavirus-tracker-api
 
-The laucher icon is from Icons made by Flat Icons from www.flaticon.com Author https://www.flaticon.com/authors/flat-icons
+Launcher icon made by DinosoftLabs (https://www.flaticon.com/authors/dinosoftlabs) from  Flaticon (https://www.flaticon.com)
 
 Screen shots </br>
 ![](images/1.jpg)
